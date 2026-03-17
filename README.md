@@ -19,8 +19,8 @@ iPad-style floating dock on iPhone. 6-icon dock support is in progress.
 ## Usage
 
 1. Run the Coruna exploit chain from `index.html`
-2. Long-press the status bar or tap **Options Menu**
-3. Select **Floating Dock** or **Cylinder** from the popup
+2. A popup menu appears automatically after the chain completes — select **Floating Dock** or **Cylinder**
+3. Long-press the status bar to bring the popup back up at any time
 
 These are session-only — reload after respring/reboot.
 
