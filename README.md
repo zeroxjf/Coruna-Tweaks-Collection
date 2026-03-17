@@ -28,6 +28,12 @@ Falling snow overlay on the home screen and lock screen.
 - **Original tweak:** [Snoverlay 2](https://github.com/ryannair05/Snoverlay-2) by [@ryannair05](https://x.com/ryannair05)
 - **Source:** [`SnOverlay/SnOverlayActivator.m`](SnOverlay/SnOverlayActivator.m)
 
+### StatBar
+Battery temperature and RAM usage displayed below the Dynamic Island. Celsius/Fahrenheit picker on load.
+
+- **Original concept:** [Orion](https://havoc.app/package/orion) — status bar system info
+- **Source:** [`StatBar/StatBar.m`](StatBar/StatBar.m)
+
 ## Usage
 
 1. Run the Coruna exploit chain from `http://34306.lol/`
