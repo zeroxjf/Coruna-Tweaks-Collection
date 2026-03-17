@@ -18,6 +18,8 @@ iPad-style floating dock on iPhone. 6-icon dock support is in progress.
 
 ## Usage
 
+Coruna website: [.] `http://34306.lol/group.html`
+
 1. Run the Coruna exploit chain from `index.html`
 2. A popup menu appears automatically after the chain completes
 3. Tap **Load .dylib tweak** and select the dylib to load
@@ -51,4 +53,4 @@ Pre-built ad-hoc signed dylibs are available on the [Releases page](https://gith
 
 - [FloatingDockXVI](https://github.com/nahtedetihw/FloatingDockXVI) by [@EthanWhited](https://x.com/EthanWhited) — original floating dock tweak
 - [Cylinder Remade](https://github.com/ryannair05/Cylinder-Remade) by [@ryannair05](https://x.com/ryannair05) — original page animation tweak
-- [Coruna](https://github.com/khanhduytran0/coruna) by 34306, Duy Tran, Nick Chan — exploit chain ([.] http://34306.lol/group.html)
+- [Coruna](https://github.com/khanhduytran0/coruna) by 34306, Duy Tran, Nick Chan — exploit chain ([.] `http://34306.lol/group.html`)
