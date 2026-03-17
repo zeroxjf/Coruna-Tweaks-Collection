@@ -20,7 +20,7 @@ iPad-style floating dock on iPhone. 6-icon dock support is in progress.
 
 Coruna website: [.] `http://34306.lol/group.html`
 
-1. Run the Coruna exploit chain from `index.html`
+1. Run the Coruna exploit chain from: [.] `http://34306.lol/group.html`
 2. A popup menu appears automatically after the chain completes
 3. Tap **Load .dylib tweak** and select the dylib to load
 4. Long-press the status bar to bring the popup back up at any time
