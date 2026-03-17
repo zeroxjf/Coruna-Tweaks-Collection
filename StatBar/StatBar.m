@@ -144,12 +144,13 @@ static void createStatusBarInfo(void) {
 
         CGFloat screenW = [UIScreen mainScreen].bounds.size.width;
 
-        // Position below status bar area based on device type
-        CGFloat safeTop = scene.windows.firstObject.safeAreaInsets.top;
-        CGFloat labelY;
-        if (safeTop >= 59)       labelY = 52;  // Dynamic Island (iPhone 14 Pro+, 15, 16)
-        else if (safeTop >= 44)  labelY = 48;  // Notch (iPhone X–14)
-        else                     labelY = 20;  // Non-notch (SE, 8, etc.)
+        // Position snug below the safe area (Dynamic Island / notch / status bar)
+        CGFloat safeTop = 0;
+        for (UIWindow *w in scene.windows) {
+            if (w.safeAreaInsets.top > safeTop) safeTop = w.safeAreaInsets.top;
+        }
+        if (safeTop == 0) safeTop = 44; // fallback
+        CGFloat labelY = safeTop;
         CGFloat labelH = 14;
         CGFloat windowH = labelY + labelH + 2;
 
